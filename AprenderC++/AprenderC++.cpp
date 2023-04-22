@@ -2,10 +2,25 @@
 //
 
 #include <iostream>
+#include "f_quicksort.h"
+
+void quicksort(int arr[], int left, int right);
 
 int main()
 {
+    int arr[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+
     std::cout << "Hello World HOW ARE U  BROOOOOOOS!\n";
+    
+    quicksort(arr, 0, n - 1);
+
+    std::cout << "Array ordenado:" << std::endl;
+    for (int i = 0; i < n; i++) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

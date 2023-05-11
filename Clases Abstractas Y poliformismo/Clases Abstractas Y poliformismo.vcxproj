@@ -24,6 +24,7 @@
     <ProjectGuid>{6e6f533a-e21e-4cbf-bf8e-7830e3aa1fbe}</ProjectGuid>
     <RootNamespace>ClasesAbstractasYpoliformismo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>APRENDIENDO PUNTEROS</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

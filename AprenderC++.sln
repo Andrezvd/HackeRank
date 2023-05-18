@@ -19,7 +19,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Try Catch", "Try Catch\Try 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Funciones VIrtuales y Herencia", "Funciones VIrtuales y Herencia\Funciones VIrtuales y Herencia.vcxproj", "{FF3EA3FB-A92A-4CD3-A0A5-1506750A311C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clases Abstractas Y poliformismo", "Clases Abstractas Y poliformismo\Clases Abstractas Y poliformismo.vcxproj", "{6E6F533A-E21E-4CBF-BF8E-7830E3AA1FBE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APRENDIENDO PUNTEROS", "Clases Abstractas Y poliformismo\Clases Abstractas Y poliformismo.vcxproj", "{6E6F533A-E21E-4CBF-BF8E-7830E3AA1FBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Entrenamiento", "Entrenamiento\Entrenamiento.vcxproj", "{6CFF5C66-6CDD-463A-90A5-B2A13748A202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{6E6F533A-E21E-4CBF-BF8E-7830E3AA1FBE}.Release|x64.Build.0 = Release|x64
 		{6E6F533A-E21E-4CBF-BF8E-7830E3AA1FBE}.Release|x86.ActiveCfg = Release|Win32
 		{6E6F533A-E21E-4CBF-BF8E-7830E3AA1FBE}.Release|x86.Build.0 = Release|Win32
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Debug|x64.ActiveCfg = Debug|x64
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Debug|x64.Build.0 = Debug|x64
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Debug|x86.Build.0 = Debug|Win32
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x64.ActiveCfg = Release|x64
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x64.Build.0 = Release|x64
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x86.ActiveCfg = Release|Win32
+		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

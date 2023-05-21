@@ -43,7 +43,7 @@ public:
         Node* N;
 
         if (mp.empty()) {
-            //No nodes 
+            //MAPA VACIO
             N = new Node(k, v);
             tail = head = N;
             mp[k] = N;
@@ -54,22 +54,22 @@ public:
         auto it = mp.find(k);
 
         if (it != mp.end()) {
-            //In hash table
-            it->second->value = v; // update value
+            //ESTA EN EL MAPA
+            it->second->value = v; // ACTUALIZAMOS EL VALOR
 
             if (head == it->second) {
-                //head?
+                //ES LA CABEZA
                 return;
             }
 
             it->second->prev->next = it->second->next;
 
             if (tail == it->second) {
-                //tail?
+                //ES LA COLA
                 tail = tail->prev;
             }
             else {
-                //in between?
+                //ESTAN EN MEDIO
                 it->second->next->prev = it->second->prev;
             }
 
@@ -78,15 +78,16 @@ public:
             head->prev = it->second;
             head = it->second;
         }
+        //SI NO ESTA EN EL MAPA
         else {
-            // No in hash table
-            N = new Node(head->prev, head, k, v); //new node
+            //CREO EL NODO APUNTANDO A NULLPTR Y A LA CABEZA
+            N = new Node(head->prev, head, k, v);
             head->prev = N;
             head = N;
             mp[k] = N;
 
             if (mp.size() > cp) {
-                //capacity?
+               //SI EL TAMAÑO EXCEDE DEBO ELIMINAR EL ULTIMO NODO
                 tail = tail->prev;
                 mp.erase(tail->next->key);
                 delete tail->next;

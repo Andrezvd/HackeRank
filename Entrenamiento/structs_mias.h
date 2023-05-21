@@ -13,5 +13,4 @@ struct Nodo {
 	Nodo(Nodo* n, Nodo* p, int k, int v) :next(n), prev(p), key(k), value(v){};
 	Nodo(int k, int v) :next(nullptr), prev(nullptr), key(k), value(v){};
 };
-
 #endif

@@ -8,15 +8,29 @@
 #include <algorithm>
 #include <set>
 #include <cassert>
-#include "double_link.h"
-
-
+#include "structs_mias.h"
+#include "class_cache.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
-	Nodo* p = new Nodo(1, 10);
-	std::cout << p->value;  
+    int n, capacity, i;
+    std::cin >> n >> capacity;
+    LRUCache l(capacity);
+    for (i = 0; i < n; i++) {
+        std::string command;
+        std::cin >> command;
+        if (command == "get") {
+            int key;
+            std::cin >> key;
+            std::cout << l.get(key) << std::endl;
+        }
+        else if (command == "set") {
+            int key, value;
+            std::cin >> key >> value;
+            l.set(key, value);
+        }
+    }
+    return 0;
 }
 
 

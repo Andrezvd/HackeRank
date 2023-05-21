@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="double_link.h">
+    <ClInclude Include="structs_mias.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="class_cache.h">

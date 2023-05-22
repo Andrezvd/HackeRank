@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APRENDIENDO PUNTEROS", "Cla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Entrenamiento", "Entrenamiento\Entrenamiento.vcxproj", "{6CFF5C66-6CDD-463A-90A5-B2A13748A202}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrdenarVector", "OrdenarVector\OrdenarVector.vcxproj", "{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x64.Build.0 = Release|x64
 		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x86.ActiveCfg = Release|Win32
 		{6CFF5C66-6CDD-463A-90A5-B2A13748A202}.Release|x86.Build.0 = Release|Win32
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Debug|x64.ActiveCfg = Debug|x64
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Debug|x64.Build.0 = Debug|x64
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Debug|x86.ActiveCfg = Debug|Win32
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Debug|x86.Build.0 = Debug|Win32
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Release|x64.ActiveCfg = Release|x64
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Release|x64.Build.0 = Release|x64
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Release|x86.ActiveCfg = Release|Win32
+		{38D04F9D-38F4-4068-8DB1-7A8E827C9D74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

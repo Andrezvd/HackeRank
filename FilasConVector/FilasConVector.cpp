@@ -40,7 +40,6 @@ int main() {
         std::vector<int> arr(n); // Create a dynamic array of size n
         for (int i = 0; i < n; i++) {
             std::cin >> arr[i];// Populate the array
-          
         }
         printKMax(arr, n, k);
         t--;
